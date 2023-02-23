@@ -3,10 +3,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 const YOURNAME="pb7";
 //const CURRENTYEAR=2023;
-const date = new Date();
-//console.log(date);
-const year= date.getFullYear();
-console.log(year);
+const date = new Date(); 
+console.log(date); // Thu Feb 23 2023 16:20:39 GMT+0530 (India Standard Time)
+const year= date.getFullYear(); // this gives the year only
+console.log(year); // 2023
 
 //It should display 2 paragraph HTML elements.
 ReactDOM.render(
