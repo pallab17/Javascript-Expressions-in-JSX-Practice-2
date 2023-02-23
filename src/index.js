@@ -2,12 +2,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
 const YOURNAME="pb7";
-const CURRENTYEAR=2023;
+//const CURRENTYEAR=2023;
+const date = new Date();
+//console.log(date);
+const year= date.getFullYear();
+console.log(year);
+
 //It should display 2 paragraph HTML elements.
 ReactDOM.render(
   <div>
 <p> Created by {YOURNAME}  </p>
-<p> Copyright {CURRENTYEAR}</p>
+<p> Copyright {year}</p>
 
   </div>,
   document.getElementById("root")
